@@ -5,7 +5,7 @@ from tqdm import tqdm
 import torch.nn.functional as F
 
 from rsiattack import ATTACK
-from .utils.HTC_transform import RWAug_Search_H, group_trans_lists, RWAug_Search_3, get_translists_ids, get_p, get_prob
+from .utils.HTC_transform import RWAug_Search_H, group_trans_lists, get_translists_ids, get_p, get_prob
 import numpy as np
 import math
 
