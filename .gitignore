@@ -1,0 +1,11 @@
+dataset/UCMerced_LandUse/*
+!dataset/UCMerced_LandUse/.gitkeep
+dataset/SIRI_WHU/*
+!dataset/SIRI_WHU/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+examples/*
+!examples/.gitkeep
+logs/*
+!logs/.gitkeep
+__pycache__/
