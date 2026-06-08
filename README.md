@@ -16,7 +16,7 @@
   <br>
 
 <p align="center">
-    <img src=./images/htc.jpg width="550">
+    <img src=./images/htc.jpg width="600">
 </p>
 
 Pytorch implementation for "[**Transferability Reinforcement of Adversarial Attacks for Remote Sensing Image Classification via Hierarchical Transformation Composition**](https://ieeexplore.ieee.org/document/11543362)"
