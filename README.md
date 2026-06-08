@@ -15,6 +15,10 @@
   </p>
   <br>
 
+<p align="center">
+    <img src=./images/htc.jpg width="550">
+</p>
+
 Pytorch implementation for "[**Transferability Reinforcement of Adversarial Attacks for Remote Sensing Image Classification via Hierarchical Transformation Composition**](https://ieeexplore.ieee.org/document/11543362)"
 
 > **Abstract:** *Adversarial attacks constitute an effective means of evaluating model robustness and revealing intrinsic weaknesses. Since practical model deployment typically adheres to black-box settings, existing attack methods often employ multiple input transformations to enhance the transferability of adversarial examples. However, remote sensing images often exhibit ambiguous foreground–background distinctions and various geospatial discrepancies, resulting in high model specificity in discriminative cues for classification Consequently, the input patterns simulated through fixed transformation schemes are insufficient to prevent overfitting to the source model, thereby limiting the transferability of the generated adversarial examples. To solve this issue, we propose a hierarchical transformation composition (HTC) framework that reinforces adversarial transferability through a coordinated action execution strategy. Specifically, the determination of input transformations is formulated as an adaptive action selection procedure, which is progressively executed by multi-level policy networks. Then, the policy networks are iteratively updated via proximal policy optimization based on the advantage estimates from a shared value network. Moreover, a hybrid reward mechanism is introduced to dynamically integrate loss information from both feature and output layers. Rather than directly imposing directional constraints on gradient calculation, the supervision is shifted to the optimization of policy networks, which prevents the sacrifice of intrinsic attack capacity while enhancing transferability. Extensive experiments on the UCM and SIRI-WHU datasets demonstrate that the proposed method achieves state-of-the-art performance across various model architectures.*
